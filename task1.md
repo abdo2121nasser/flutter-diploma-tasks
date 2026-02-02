@@ -140,19 +140,127 @@ void main() {
 ```
 
 >**screenshot of code:**<br>
-<img width="805" height="407" alt="image" src="https://github.com/user-attachments/assets/65570249-4132-4317-9749-20ee3a29c5bd" />
+<img width="796" height="367" alt="image" src="https://github.com/user-attachments/assets/786ea70d-4466-4c0f-ae16-abf0c03cf9d8" />
+
+---
+## 📌 Question 8,9,10
+
+> *Predict the output of the following, then write code to check:*
+* int result1 = 2 + 3 * 4;
+* int result2 = (2 + 3) * 4;
+* int result3 = 10 - 2 * 3 + 1;
+
+---
+
+## 💻 Code / Solution
+
+```text
+void main() {
+
+  //first int result1 = 2 + 3 * 4;
+//we will start with the multiplication -> 3 * 4 = 12
+ //then the addition with the result -> 2 + 12 = 14
+
+  //second int result2 = (2 + 3) * 4;
+//we will start with the processes in brackets -> ( 2 + 3 ) = 5
+//then we do multiplication with the result -> 5 * 4 = 20
+
+  //third result3 = 10 - 2 * 3 + 1;
+//we will start with the multiplication -> 2 * 3 = 6
+//then we will do the operations form left to right cause they have same priority
+//so we will subtract the result  -> 10 - 6 = 4
+//then we will do addition to the result -> 4 + 1 = 5
+}
+```
+
+## 📌 Question 11
+
+> *Dart Program to Check if a Number is Positive or Negative or Zero.*
+
+---
+
+## 💻 Code / Solution
+
+```text
+void main() {
+  int value = 5;
+  if(value==0){
+    print('the value is zero');
+
+  }
+  else if(value > 0){
+    print('the value is positive');
+  }
+  else{
+    print('the value is negative');
+  }
+}
+```
+
+>**screenshot of code:**<br>
+<img width="954" height="635" alt="image" src="https://github.com/user-attachments/assets/7d44debc-f949-4112-85b1-084e73918900" />
+
+---
+
+## 📌 Question 12
+
+> *Dart Program to Check if a Number is Even or Odd.*
+
+---
+
+## 💻 Code / Solution
+
+```text
+void main() {
+ if(value %2 == 0){
+    print('the value is even');
+  }
+  else{
+    print('the value is odd');
+  }
+}
+```
+
+>**screenshot of code:**<br>
+<img width="859" height="477" alt="image" src="https://github.com/user-attachments/assets/93f4c8ff-dde5-455b-9f88-a41cdf7d0e36" />
+
+---
 
 
+## 📌 Question 13
+
+> *Program to find largest and smallest element of 3 values.*
+
+---
+
+## 💻 Code / Solution
+
+```text
+void main() {
+ int a = 9, b = 4, c = 5;
+  int largest, smallest;
+  if (a >= b && a >= c) {
+    largest = a;
+  } else if (b >= a && b >= c) {
+    largest = b;
+  } else {
+    largest = c;
+  }
+  if (a <= b && a <= c) {
+    smallest = a;
+  } else if (b <= a && b <= c) {
+    smallest = b;
+  } else {
+    smallest = c;
+  }
+  print("Largest number: $largest");
+  print("Smallest number: $smallest");
+}
+```
+
+>**screenshot of code:**<br>
+<img width="937" height="793" alt="image" src="https://github.com/user-attachments/assets/1df5de95-483f-4d2e-ae2e-c83e223eea07" />
 
 
-
-
-
-# 📂 Notes
-
-* Use **clear task numbers**
-* Keep one task per section
-* Store images inside an `images/` folder
-* Name images clearly (e.g. `task1_code.png`)
 
 
