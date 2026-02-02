@@ -1,6 +1,6 @@
 # 📱 Mobile Development: A Brief History to Flutter
 
-This document presents a concise research-style overview of **how mobile technology and mobile app development evolved**, leading to the creation of **Flutter**. It is written in a **README-friendly** format for students and developers.
+This document presents a concise research-style overview of **how mobile technology and mobile app development evolved**, leading to the creation of **Flutter**.
 
 ---
 
