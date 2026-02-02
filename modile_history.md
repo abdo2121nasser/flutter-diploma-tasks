@@ -185,6 +185,4 @@ By combining **native performance**, **fast development**, and **cross-platform 
 * Android Developer History
 * Apple iOS History
 
----
 
-✨ *Prepared for educational and research purposes*
