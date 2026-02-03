@@ -13,13 +13,23 @@
 
 ```text
 void main() {
- int age;
- age = 22;
+  int value = 5;
+  if(value==0){
+    print('the value is zero');
+
+  }
+  else if(value > 0){
+    print('the value is positive');
+  }
+  else{
+    print('the value is negative');
+  }
 }
 ```
 
 >**screenshot of code:**<br>
-<img width="474" height="302" alt="image" src="https://github.com/user-attachments/assets/ea2a9c52-0afe-41e1-9842-a84fbe3b1f84" />
+<img width="954" height="635" alt="image" src="https://github.com/user-attachments/assets/7d44debc-f949-4112-85b1-084e73918900" />
+
 ---
 
 ## 📌 Question 2
@@ -31,13 +41,18 @@ void main() {
 
 ```text
 void main() {
- String firstName='Abdulrahman', lastName = 'Nasser';
- print(firstName+' '+lastName);
+ if(value %2 == 0){
+    print('the value is even');
+  }
+  else{
+    print('the value is odd');
+  }
 }
 ```
 
 >**screenshot of code:**<br>
-<img width="986" height="422" alt="image" src="https://github.com/user-attachments/assets/0ffa464b-f594-4e25-9bbd-0d577b683aaf" />
+<img width="859" height="477" alt="image" src="https://github.com/user-attachments/assets/93f4c8ff-dde5-455b-9f88-a41cdf7d0e36" />
+
 ---
 
 ## 📌 Question 3
@@ -49,13 +64,16 @@ void main() {
 
 ```text
 void main() {
- double heightMeter = 1.7;
- print(heigthMeter);
+ int sum=0;
+ for(int i =0;i<=100;i++){
+   sum+=i;
+ }
+ print(sum);
 }
 ```
 
 >**screenshot of code:**<br>
-<img width="747" height="371" alt="image" src="https://github.com/user-attachments/assets/dfa27863-4e3f-4648-9e25-98e595cfd6bf" />
+<img width="524" height="368" alt="image" src="https://github.com/user-attachments/assets/6cb66769-0dd3-4d18-affb-452a7906ae45" />
 
 ---
 
@@ -68,14 +86,23 @@ void main() {
 
 ```text
 void main() {
- bool isStudent;
- isStudent = true;
- print(isStudent);
+   int num1=10,num2=12;
+   String operation = '+';
+   switch(operation){
+     case '+':
+       print(num1+num2);
+       case '-':
+       print(num1-num2);
+       case '*':
+       print(num1*num2);
+       case '/':
+       print(num1/num2);
+   }
 }
 ```
 
 >**screenshot of code:**<br>
-<img width="782" height="371" alt="image" src="https://github.com/user-attachments/assets/fad93900-a2c6-4817-b977-e59ab51fe4f2" />
+<img width="572" height="533" alt="image" src="https://github.com/user-attachments/assets/77805a1f-2efc-4fe8-afc7-2ce320fbf2ba" />
 
 ---
 
@@ -88,16 +115,29 @@ void main() {
 
 ```text
 void main() {
-print(x+y);
-print(x-y);
-print(x*y);
-print(x/y);
-print(x%y);
+ int a = 9, b = 4, c = 5;
+  int largest, smallest;
+  if (a >= b && a >= c) {
+    largest = a;
+  } else if (b >= a && b >= c) {
+    largest = b;
+  } else {
+    largest = c;
+  }
+  if (a <= b && a <= c) {
+    smallest = a;
+  } else if (b <= a && b <= c) {
+    smallest = b;
+  } else {
+    smallest = c;
+  }
+  print("Largest number: $largest");
+  print("Smallest number: $smallest");
 }
 ```
 
 >**screenshot of code:**<br>
-<img width="825" height="504" alt="image" src="https://github.com/user-attachments/assets/e918fe56-77b3-486c-9bf5-259adfc369b2" />
+<img width="937" height="793" alt="image" src="https://github.com/user-attachments/assets/1df5de95-483f-4d2e-ae2e-c83e223eea07" />
 
 ---
 ## 📌 Question 6
@@ -109,14 +149,17 @@ print(x%y);
 
 ```text
 void main() {
-int radius = 5;
-double pi=3.14;
-print(radius*radius*pi);
+  int n = 100;
+  for (int i = 0; i <= n; i++) {
+    if (i % 2 == 0) {
+      print(i);
+    }
+  }
 }
 ```
 
 >**screenshot of code:**<br>
-<img width="785" height="364" alt="image" src="https://github.com/user-attachments/assets/d5f084eb-37c9-439e-90c9-cd884e1d93a8" />
+<img width="492" height="817" alt="image" src="https://github.com/user-attachments/assets/225b1724-6efc-445a-b660-4b337dc15d0a" />
 
 ---
 
@@ -133,14 +176,17 @@ print(radius*radius*pi);
 
 ```text
 void main() {
-  double minute = 120;
-  double hour = minute /60;
-  print(hour);
+  int factorial = 1;
+  int n = 5;
+  for (int i = 1; i <= n; i++) {
+    factorial *= i;
+  }
+  print(factorial);
 }
 ```
 
 >**screenshot of code:**<br>
-<img width="796" height="367" alt="image" src="https://github.com/user-attachments/assets/786ea70d-4466-4c0f-ae16-abf0c03cf9d8" />
+<img width="551" height="423" alt="image" src="https://github.com/user-attachments/assets/5af2109f-e0a5-4f3e-b82d-74b8f4ce9f54" />
 
 ---
 
