@@ -79,7 +79,7 @@ void main() {
 
 ---
 
-## 📌 Question 3
+## 📌 Question 5
 
 > *Create two variables: x = 12 and y = 4. Print the result of:*
 * x + y
